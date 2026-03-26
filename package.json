@@ -8,8 +8,6 @@
     "build": "vite build",
     "preview": "vite preview",
     "deploy": "gh-pages -d dist",
-    "vercel-deploy": "vercel --prod",
-    "vercel-preview": "vercel",
     "clean": "rm -rf dist",
     "lint": "tsc --noEmit"
   },
@@ -31,7 +29,6 @@
     "tailwindcss": "^4.1.14",
     "tsx": "^4.21.0",
     "typescript": "~5.8.2",
-    "vercel": "^50.37.0",
     "vite": "^6.2.0"
   }
 }
